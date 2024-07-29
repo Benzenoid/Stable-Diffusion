@@ -2,6 +2,12 @@
 
 This project involves the implementation and exploration of various machine learning models and techniques, particularly focusing on attention mechanisms, generative models, and model conversion/loading processes. It includes scripts and notebooks for tasks such as image-to-image translation, text-to-image generation, and the usage of pre-trained models for different applications.
 
+### Download Weights and Tokenizer Files
+
+1. Download `vocab.json` and `merges.txt` from [Hugging Face - RunwayML Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main/tokenizer) and save them in the `data` folder.
+2. Download `v1-5-pruned-emaonly.ckpt` from [Hugging Face - RunwayML Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main) and save it in the `data` folder.
+
+
 ## Project Outputs
 
 ### Text2Image
@@ -27,7 +33,6 @@ Image-to-Image translation takes an initial image and a textual prompt, applying
 - Python
 - PyTorch
 - Transformers
-- Jupyter Notebook
 
 ## Features
 - **Attention Mechanisms**: Implementations of various attention layers used in modern deep learning models.
